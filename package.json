@@ -1,0 +1,26 @@
+{
+	"name": "solarbackend",
+	"version": "1.0.0",
+	"description": "",
+	"main": "dist/main.js",
+	"scripts": {
+		"build": "tsc",
+		"start": "tsc && node .",
+		"lint": "prettier --check .",
+		"lint:fix": "prettier --write ."
+	},
+	"keywords": [],
+	"author": "Li (lukeinlow@gmail.com)",
+	"license": "ISC",
+	"type": "commonjs",
+	"devDependencies": {
+		"@types/node": "^22.13.10",
+		"dotenv": "^16.4.7",
+		"prettier": "^3.5.3",
+		"tslib": "^2.8.1",
+		"typescript": "^5.8.2"
+	},
+	"dependencies": {
+		"chalk": "^5.4.1"
+	}
+}
